@@ -1,14 +1,21 @@
 # Roadmap
+> 路线图
 
 Status tracker for every phase and lesson. The status glyphs in this file feed
 the website (`site/build.js` parses them into `site/data.js`); do not change
 their shape.
+> 每个阶段和每节课的状态追踪器。文件中的状态符号是网站的数据源（`site/build.js` 将其解析为 `site/data.js`）；不要修改其形状。
 
 Total estimated time: ~314 hours, at your own pace.
+> 预估总时长：~314 小时，按自己的节奏来。
 
 **Legend:** ✅ Complete &nbsp;·&nbsp; 🚧 In Progress &nbsp;·&nbsp; ⬚ Planned
+> **图例：** ✅ 完成 &nbsp;·&nbsp; 🚧 进行中 &nbsp;·&nbsp; ⬚ 计划中
+
+> 下表中每列的含意：`#` = 课程序号 | `Lesson` = 课程名称 | `Status` = 状态 | `Est.` = 预估时长
 
 ## Phase 0: Setup & Tooling — ✅ (~14 hours)
+> 阶段 0：环境搭建与工具链
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -26,6 +33,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 12 | Debugging & Profiling | ✅ | ~75 min |
 
 ## Phase 1: Math Foundations — ✅ (~23 hours)
+> 阶段 1：数学基础
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -53,6 +61,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 22 | Stochastic Processes | ✅ | ~45 min |
 
 ## Phase 2: ML Fundamentals — ✅ (~21 hours)
+> 阶段 2：机器学习基础
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -76,6 +85,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 18 | Feature Selection | ✅ | ~75 min |
 
 ## Phase 3: Deep Learning Core — ✅ (~15 hours)
+> 阶段 3：深度学习核心
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -94,6 +104,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 13 | Debugging Neural Networks | ✅ | ~75 min |
 
 ## Phase 4: Computer Vision — ✅ (~27 hours)
+> 阶段 4：计算机视觉
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -127,6 +138,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 28 | World Models & Video Diffusion | ✅ | ~75 min |
 
 ## Phase 5: NLP — Foundations to Advanced — ✅ (~30 hours)
+> 阶段 5：自然语言处理 — 基础到进阶
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -161,6 +173,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 29 | [Dialogue State Tracking](phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking) | ✅ | ~75 min |
 
 ## Phase 6: Speech & Audio — ✅ (~18 hours)
+> 阶段 6：语音与音频
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -183,6 +196,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 17 | [Audio Evaluation — WER, MOS, MMAU, Leaderboards](phases/06-speech-and-audio/17-audio-evaluation-metrics) | ✅ | ~60 min |
 
 ## Phase 7: Transformers Deep Dive — ✅ (~14 hours)
+> 阶段 7：Transformer 深入
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -204,6 +218,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 16 | [Speculative Decoding — Draft, Verify, Repeat](phases/07-transformers-deep-dive/16-speculative-decoding) | ✅ | ~60 min |
 
 ## Phase 8: Generative AI — ✅ (~14 hours)
+> 阶段 8：生成式 AI
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -224,6 +239,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 19 | [Visual Autoregressive Modeling (VAR): Next-Scale Prediction](phases/08-generative-ai/19-visual-autoregressive-var) | ✅ | ~90 min |
 
 ## Phase 9: Reinforcement Learning — ✅ (~13 hours)
+> 阶段 9：强化学习
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -241,6 +257,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 12 | RL for Games | ✅ | ~75 min |
 
 ## Phase 10: LLMs from Scratch — ✅ (~26 hours)
+> 阶段 10：从零构建大语言模型
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -270,6 +287,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 34 | [Gradient Checkpointing and Activation Recomputation](phases/10-llms-from-scratch/34-gradient-checkpointing) | ✅ | ~70 min |
 
 ## Phase 11: LLM Engineering — ✅ (~17 hours)
+> 阶段 11：大语言模型工程
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -290,6 +308,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 15 | [Prompt Caching & Context Caching](phases/11-llm-engineering/15-prompt-caching) | ✅ | ~60 min |
 
 ## Phase 12: Multimodal AI — ✅ (~65 hours)
+> 阶段 12：多模态 AI
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -320,6 +339,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 25 | [Multimodal Agents and Computer-Use (Capstone)](phases/12-multimodal-ai/25-multimodal-agents-computer-use) | ✅ | ~240 min |
 
 ## Phase 13: Tools & Protocols — ✅ (~24.5 hours)
+> 阶段 13：工具与协议
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -348,6 +368,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 23 | [Capstone — Tool Ecosystem](phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | ✅ | ~120 min |
 
 ## Phase 14: Agent Engineering — ✅ (~42 hours)
+> 阶段 14：Agent 工程
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -395,6 +416,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 42 | Capstone: Ship a Reusable Agent Workbench Pack | ✅ | ~75 min |
 
 ## Phase 15: Autonomous Systems — ✅ (~20 hours)
+> 阶段 15：自主系统
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -422,6 +444,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 22 | CAIS, CAISI, and Societal-Scale Risk | ✅ | ~45 min |
 
 ## Phase 16: Multi-Agent & Swarms — ✅ (~28 hours)
+> 阶段 16：多智能体与群智
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -452,6 +475,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 25 | [Case Studies and 2026 State of the Art](phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | ✅ | ~90 min |
 
 ## Phase 17: Infrastructure & Production — ✅ (~32 hours)
+> 阶段 17：基础设施与生产
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -485,6 +509,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 28 | Self-Hosted Serving Selection — llama.cpp, Ollama, TGI, vLLM, SGLang | ✅ | ~45 min |
 
 ## Phase 18: Ethics, Safety & Alignment — ✅ (~31 hours)
+> 阶段 18：伦理、安全与对齐
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -520,6 +545,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 30 | [Dual-Use Risk — Cyber, Bio, Chem, Nuclear](phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear) | ✅ | ~75 min |
 
 ## Phase 19: Capstone Projects — ✅ (~620 hours)
+> 阶段 19：综合项目
 
 | # | Project | Status | Est. |
 |---|---------|--------|------|
@@ -612,5 +638,7 @@ Total estimated time: ~314 hours, at your own pace.
 ---
 
 **Total: 20 phases, 503 lessons | 503 complete | ~1,050 hours estimated**
+> **总计：20 个阶段，503 节课 | 503 节完成 | 预估 ~1,050 小时**
 
 Want to help? Pick any ⬚ lesson and submit a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
+> 想贡献？挑任意 ⬚ 课程提交 PR。参见 [CONTRIBUTING.md](CONTRIBUTING.md)。
