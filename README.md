@@ -30,6 +30,10 @@
 >
 > 你不只是学 AI。你亲手构建它。端到端。从零开始。
 
+<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
+<p align="center"><sub><b>150,639</b> readers &nbsp;·&nbsp; <b>241,669</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-06-07</sub></p>
+<!-- STATS:END -->
+
 ## How this works
 > 学习方式
 
