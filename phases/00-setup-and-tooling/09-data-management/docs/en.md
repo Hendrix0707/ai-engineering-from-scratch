@@ -267,49 +267,80 @@ For this course, local storage is sufficient. Cloud storage becomes relevant whe
 > 本课程本地存储就够了。在远程 GPU 实例上微调时才会用到云存储。
 
 ## Datasets Used in This Course
+> 本课程使用的数据集
 
 | Dataset | Lessons | Size | What It Teaches |
+> | 数据集 | 涉及课程 | 大小 | 教学内容 |
 |---------|---------|------|----------------|
 | IMDB | Tokenization, classification | 84 MB | Text classification basics |
+> | IMDB | 分词、分类 | 84 MB | 文本分类基础 |
 | WikiText | Language modeling | 181 MB | Next-token prediction |
+> | WikiText | 语言建模 | 181 MB | 下一 token 预测 |
 | SQuAD | QA systems | 35 MB | Question answering, spans |
+> | SQuAD | 问答系统 | 35 MB | 问答、文本区间 |
 | Common Crawl (subset) | Embeddings | Varies | Large-scale text processing |
+> | Common Crawl（子集） | 嵌入 | 不定 | 大规模文本处理 |
 | MNIST | Vision basics | 21 MB | Image classification fundamentals |
+> | MNIST | 视觉基础 | 21 MB | 图像分类基础 |
 | COCO (subset) | Multimodal | Varies | Image-text pairs |
+> | COCO（子集） | 多模态 | 不定 | 图文对 |
 
 You do not need to download all of these now. Each lesson specifies what it needs.
+> 不需要现在就全部下载。每节课会说明需要哪个。
 
 ## Use It
+> 实际使用
 
 Run the utility script to verify everything works:
+> 运行工具脚本来验证一切正常：
 
 ```bash
 python code/data_utils.py
 ```
 
 This downloads a small dataset, converts it, splits it, and prints a summary.
+> 这会下载一个小数据集，转换格式、划分、打印摘要。
 
 ## Ship It
+> 交付物
 
 This lesson produces:
+> 本课产出：
+
 - `code/data_utils.py` - reusable data loading and caching utility
+> `code/data_utils.py` - 可复用的数据加载和缓存工具
 - `outputs/prompt-data-helper.md` - prompt for finding the right dataset for a task
+> `outputs/prompt-data-helper.md` - 为任务找到合适数据集的提示词
 
 ## Exercises
+> 练习
 
 1. Load the `glue` dataset with the `mrpc` config and inspect the first 5 examples
+> 加载 `glue` 数据集的 `mrpc` 配置，查看前 5 条样本
 2. Stream the `c4` dataset and count how many examples you can process in 10 seconds
+> 流式读取 `c4` 数据集，统计 10 秒内能处理多少条样本
 3. Convert a dataset to Parquet and compare the file size to CSV
+> 将数据集转为 Parquet 格式，对比 CSV 格式的文件大小
 4. Create a 70/15/15 train/val/test split with a fixed seed and verify the sizes
+> 用固定 seed 创建 70/15/15 的训练/验证/测试划分，验证各部分大小
 
 ## Key Terms
+> 关键术语
 
 | Term | What people say | What it actually means |
+> | 术语 | 人们常怎么说 | 实际含义 |
 |------|----------------|----------------------|
 | Dataset split | "Training data" | A named subset (train/val/test) used at different stages of the ML lifecycle |
+> | 数据集划分 | "训练数据" | ML 生命周期不同阶段使用的命名子集（训练/验证/测试） |
 | Streaming | "Load it lazily" | Processing data row by row from a remote source without downloading the full dataset |
+> | 流式读取 | "懒加载" | 从远程源逐行处理数据，不下载完整数据集 |
 | Parquet | "Compressed CSV" | A columnar file format optimized for analytical queries and storage efficiency |
+> | Parquet | "压缩版 CSV" | 列式文件格式，针对分析查询和存储效率优化 |
 | Arrow | "Fast dataframe" | An in-memory columnar format used internally by the datasets library for zero-copy reads |
+> | Arrow | "快速 dataframe" | 内存中的列式格式，datasets 库内部使用，支持零拷贝读取 |
 | Git LFS | "Git for big files" | An extension that stores large files outside the git repo while keeping pointers in version control |
+> | Git LFS | "Git 大文件版" | 将大文件存在 git 仓库外，版本控制中只保留指针的扩展 |
 | DVC | "Git for data" | A version control system for datasets and models that integrates with cloud storage |
+> | DVC | "数据版 Git" | 数据集和模型的版本控制系统，集成云存储 |
 | Cache | "Already downloaded" | A local copy of previously fetched data, stored at ~/.cache/huggingface/ by default |
+> | 缓存 | "已下载过的" | 之前获取的数据本地副本，默认存储在 ~/.cache/huggingface/ |
